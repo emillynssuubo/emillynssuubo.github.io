@@ -1,8 +1,7 @@
-##Connie
+[//]: <> (Connie)
 
-![Alt text](connie.png?raw=true "picture")
+[//]: <> (![Alt text](connie.png?raw=true "picture"))
 
-Welcome!
 
 
 
