@@ -1,3 +1,7 @@
+body {
+  background-color: #E2E2E2;
+}
+
 .wrap {
     width: 100%;
 }
@@ -5,13 +9,11 @@
 .floatleft {
     float:left; 
     width: 40%;
-    background-color: #ff0000;
     height: 400px;
 }
 
 .floatright {
 float: right;
-    background-color: #00ff00;
     height: 400px;
     width: 60%;
 }
