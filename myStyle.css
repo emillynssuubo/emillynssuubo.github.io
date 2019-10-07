@@ -1,22 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
 body {
-  background-color: #E2E2E2;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.wrap {
-    width: 100%;
+
+a.navigation-link {
+  padding: 30px 50px;
+  color:#FF0000; 
+  word-wrap: normal;
+  display: inline-block;
 }
 
-.floatleft {
-  float:left; 
+a.navigation:visited {
+color:#000000; 
+text-decoration:none;
+}
+
+
+#nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	padding-bottom: 0px;
+	text-align: right;
+}
+
+#nav li a.thename {
+	padding-left: 20px;
+	font-family: 'Tangerine';
+	font-size: 40px;
+	color:#602060;
+	float:left;
+}	
+
+#nav li {
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#nav a {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #596365;
+}
+
+#nav a:hover {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #000;
+}
+
+hr {
+    border: 0.5px solid #602060;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.wrap{
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:10%;
+}
+
+/* Create 2 unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.column.side {
   width: 40%;
-  height: 400px;
   text-align: right;
+  padding-top:30px;
 }
 
-.floatright {
-float: right;
-  height: 400px;
+/* Middle column */
+.column.middle {
   width: 60%;
 }
+
+
+
+.container{
+    float: center;
+    margin-top:8%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
