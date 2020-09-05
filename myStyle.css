@@ -7,6 +7,7 @@
 body {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
 }
 
 
@@ -24,18 +25,20 @@ text-decoration:none;
 
 
 #nav {
+	width:75%;
 	list-style-type: none;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
-	font-size: 16px;
+	font-size: 14px;
 	padding-bottom: 0px;
 	text-align: right;
+	min-width:600px;
 }
 
 #nav li a.thename {
-	padding-left: 20px;
+	padding-left: 60px;
 	font-family: 'Tangerine';
-	font-size: 40px;
+	font-size: 35px;
 	color:#602060;
 	float:left;
 }	
@@ -57,7 +60,11 @@ text-decoration:none;
 	color: #596365;
 }
 
-#nav a:hover {
+#nav a.active {
+	border-bottom: 3px solid #602060;
+}
+
+#nav a:hover{
 	text-decoration: none;
 	font-style: normal;
 	font-weight: normal;
@@ -67,15 +74,20 @@ text-decoration:none;
 	color: #000;
 }
 
+
+/*
 hr {
     border: 0.5px solid #602060;
     margin-left: 20px;
     margin-right: 20px;
 }
+*/
+
+
 
 
 .wrap{
-  width:80%;
+  width:75%;
   margin-right: auto;
   margin-left: auto;
   margin-top:10%;
@@ -89,14 +101,14 @@ hr {
 
 /* Left and right column */
 .column.side {
-  width: 40%;
+  width: 30%;
   text-align: right;
   padding-top:30px;
 }
 
 /* Middle column */
 .column.middle {
-  width: 60%;
+  width: 70%;
 }
 
 
