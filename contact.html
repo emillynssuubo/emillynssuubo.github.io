@@ -30,23 +30,22 @@
 
 
 <div class = "container">
-    <p > <strong>You can reach me by phone, email, or mail. </strong>
+    <p > <strong>You can reach me by phone, email </strong>
       <br> <br>
       <img src="phone.png" alt="Tel." width= "12px">
  +256 703 285 443 
       <br>
       <img style="padding: 0px ;"  src="email.png" alt="Email" width= "15px">
-     <a href="mailto:emillynssuubo@gmail.com" style="color:#602060">connie.lee@mines-paristech.fr </a></p>
+     <a href="mailto:emillynssuubo@gmail.com" style="color:#602060">emillynssuubo@gmail.com </a></p>
     <p > 
-    Mailing Address: <br> <br>
-    Connie Lee<br>
-    CERNA<br>
-    Mines Paristech <br>
-    60 Boulevard Saint Michel<br>
-    75006, Paris<br>
-    France <br>
+   
     </p>
-      
+      {% if site.twitter_username != '' %}
+              <a href="https://twitter.com/{{ site.twitter_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-twitter fa-lg"></i>Twitter</button></a>
+            {% endif %}
+            {% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            {% endif  
 
 
 </div>
